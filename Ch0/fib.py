@@ -1,13 +1,13 @@
 # coding:utf-8
 
-
+#迭代方法
 def fib1(n):
     if n < 2:
         return 1
     else:
         return fib1(n-1) + fib1(n-2)
 
-
+#线性循环方法
 def fib2(n):
     f1 = f2 = 1
     for k in range(1, n):
